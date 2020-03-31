@@ -1,0 +1,25 @@
+
+.index{
+  .header{
+    min-height: 5vh;
+    width: 100%;
+    background-color: rgb(238, 236, 236);
+    // background-color: #666;
+  }
+  .menu{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 86vh;
+    background-color: rgb(238, 236, 236);
+    color:rgb(56, 56, 56);
+  }
+  .footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 5vh;
+    background-color: #333;
+    color:#fff;
+  }
+  
+}

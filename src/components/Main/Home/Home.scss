@@ -1,0 +1,63 @@
+@import "../../../style/fonts";
+
+.home {
+    height: 86vh;
+    font-family: $font_work;
+    // text-align: center;
+    .image {
+        width: 320px;
+        height: 320px;
+        border-radius: 40%;
+    }
+    .text{
+        margin: 0 0 10px 25px;
+        .paragraphs{
+            .p-hello{
+                font-size: 50px;
+                font-weight: 700;
+                margin: 0 0 0 0;
+            }
+            .p-name, .p-website, .p-for{
+                font-size: 26px;
+                font-weight: 500;
+                margin: 0 0 0 2px;
+            }
+        }
+        .links{
+            a{
+                width: 120px;
+                height: 120px;
+                text-align: center;
+                display: inline-block;
+                color: white;
+                border-radius: 45%;
+                margin: 10px 0 0 0;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 110px;
+                text-decoration: none;
+            }
+            .a-resume{
+                background-color: #558877;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+            .a-projects{
+                margin: 0 0 0 10px;
+                background-color: #308ecc;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+            .a-crazy{
+                margin: 0 0 0 10px;
+                background-color: #a75bbe;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
