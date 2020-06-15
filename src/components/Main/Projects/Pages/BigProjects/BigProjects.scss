@@ -1,0 +1,51 @@
+.sections {
+    width: 80%;
+    // text-align: center;
+
+    .left-section {
+        width: 48%;
+        padding: 8px;
+        .image-gallery-slide img {
+            width: 550px;
+            height: 400px;
+        }
+    }
+    .right-section {
+        width: 60%;
+        text-align: left;
+        padding-left: 20px;
+        align-self: center;
+        h6 {
+            color: #1d1630;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .header {
+            text-align: center;
+            img {
+                width: 120px;
+                height: 80px;
+            }
+        }
+        .description {
+            margin-top: 5px;
+            line-height: 18px;
+            font-size: 14px;
+
+        }
+        .features {
+            width: 70%;
+            float: left;
+        }
+        .technical{
+            width: 30%;
+            float: right;
+        }
+        .clear{
+            clear: both;
+        }
+        .other a{
+            margin-left: 10px;
+        }
+    }
+}

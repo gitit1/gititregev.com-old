@@ -14,9 +14,9 @@ class WorkExperience extends React.Component {
                     <div className='box-shaddow'>
                         <span className="company-info">
                             <img src={Apester} alt="Apester" />
-                            <p>Full Stack Developer at <a href="http://apester.com/" rel="noopener noreferrer" >Apester</a></p>
+                            <p><span>Full Stack Developer</span> at <a href="http://apester.com/" rel="noopener noreferrer" >Apester</a></p>
                         </span>
-                        <p>October ​2019 - Present</p>
+                        <p><b>October ​2019 - Present</b></p>
                         <div>
                             <p>Apester is a participatory data provider that allows businesses and publishers to learn more about their audiences.
                             <br />I'm part of the RnD of the company, developing our Products , Editor and Sites.
@@ -28,9 +28,9 @@ class WorkExperience extends React.Component {
                     <div className='box-shaddow'>
                         <span className="company-info">
                             <img src={Webcollage} alt="Apester" />
-                            <p>Web Developer at <a href="https://www.syndigo.com/" rel="noopener noreferrer">Webcollage (now Syndigo)</a></p>
+                            <p><span>Web Developer</span> at <a href="https://www.syndigo.com/" rel="noopener noreferrer">Webcollage (now Syndigo)</a></p>
                         </span>
-                        <p>December 2015 - April 2019</p>
+                        <p><b>December 2015 - April 2019</b></p>
                         <p>•	Designing, coding and modifying websites using HTML, CSS and JavaScript.
                         <br />•	Designing and developing internal system to generate landing pages system using React.js and NodeJS.
                         <br />•	Created inner tools using JavaScript and Chrome Addons.

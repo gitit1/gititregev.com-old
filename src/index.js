@@ -16,9 +16,9 @@ render((
           <div className="menu">
             <Main />
           </div>
-          {/* <div className="footer">
+          <div className="footer">
             <Footer />
-          </div> */}
+          </div>
         </div>       
     </BrowserRouter>
 ), document.getElementById('root'));

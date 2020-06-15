@@ -8,23 +8,22 @@ class Educaion extends React.Component {
                 <div className='box-title'>
                     <p>Educaion</p>
                 </div>
-                <div className='box-info'>
-
+                <div className='box-info edu-info'>
                     <div className='box-shaddow'>
-                        <p>The Academic College of Tel-Aviv, Yaffo</p>
-                        <p>​2012 - 2016</p>
+                        <h5>The Academic College of Tel-Aviv, Yaffo</h5>
+                        <span>​2012 - 2016</span>
                         <p>​​Bachelor of Applied Science (B.A.Sc.)</p>
                     </div>
                     <br/>
                     <div className='box-shaddow'>
-                        <p>See-Security: Cyber & Information Security College</p>
-                        <p>2015</p>
+                        <h5>See-Security: Cyber & Information Security College</h5>
+                        <span>2015</span>
                         <p>HDE, CEH, Information Security & Cyber</p>
                     </div>
                     <br />
                     <div className='box-shaddow'>
-                        <p>Shenkar College of Engineering and Design</p>
-                        <p>2006 - 2008</p>
+                        <h5>Shenkar College of Engineering and Design</h5>
+                        <span>2006 - 2008</span>
                         <p>Electronic Engineer</p>
                     </div>
                     <br />

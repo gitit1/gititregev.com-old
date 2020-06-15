@@ -1,0 +1,23 @@
+.nav-p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .link-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: inline;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: #007bff;
+        text-align: center;
+        padding: 6px;
+        outline: none;
+      }
+      
+      .link-button:hover,
+      .link-button:focus {
+      text-decoration: none;
+      }
+}
