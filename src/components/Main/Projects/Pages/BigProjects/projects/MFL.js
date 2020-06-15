@@ -46,7 +46,7 @@ const MFL = () => (
         <div className='box-shaddow'>
             <div className="header">
                 <a href="http://www.myfanficslibrary.com" target="_blank">
-                    My Fnfics Library  (MFL)             
+                    <span>My Fnfics Library (MFL)</span>             
                 </a>
             </div>
             <div className="description">
