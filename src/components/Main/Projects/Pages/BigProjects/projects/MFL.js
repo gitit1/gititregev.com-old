@@ -40,13 +40,13 @@ const images = [
 const MFL = () => (
     <div className='d-flex justify-content-center sections'>
         <div className='left-section'>
-            <ImageGallery items={images} showPlayButton={false} showThumbnails={false} showFullscreenButton={false}/>
+            <ImageGallery items={images} showPlayButton={false} showThumbnails={false} showFullscreenButton={true}/>
         </div>
         <div className='right-section'>
         <div className='box-shaddow'>
             <div className="header">
                 <a href="http://www.myfanficslibrary.com" target="_blank">
-                    <span>My Fnfics Library (MFL)</span>             
+                    <span>My Fanfics Library (MFL)</span>             
                 </a>
             </div>
             <div className="description">
@@ -55,7 +55,7 @@ const MFL = () => (
                 <p>The idea behind is to be able to save all my favorites fandoms fanfics so I have a backup in case it got deleted.</p>
                 <p>The second goal is to know what I already read while browsing on site, which is none exist on the big sites.</p>
                 <p>The third goal is that all the data of the fanfics will be in one place so i won't have to search in 3 different sites.</p>
-                <p>So I scraped the 3 bug Fanfics sites (AO3, FF, Wattpad) and build my own platform to use the data.</p>
+                <p>So I scraped the 3 biggest Fanfics sites (AO3, FF, Wattpad) and built my own platform to use the data.</p>
             </div>
             <div>
                 <div className="features">

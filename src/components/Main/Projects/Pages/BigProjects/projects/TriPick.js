@@ -35,9 +35,9 @@ const TriPick = () => (
             </div>
             <div className="description">
                 <h6>Description</h6>
-                <p>That is my final project for my information system degree. the work won as one of the best 10 projects.</p>
-                <p>The idea behind this project is helping travelars finding partner for a shared whole trip or just some part of the trip</p>
-                <p>You can akso get informaition about the countries and what other travelars are recomending doing in thouse countries and best activities/sights</p>
+                <p>This site was my final project for my information system degree. the site won as one of the best 10 projects.</p>
+                <p>The idea behind this project is helping travelers finding partners for a shared whole trip or just some part of the trip</p>
+                <p>You can also get informaition about the countries and what other travelars are recomending doing in thouse countries and best activities/sights</p>
             </div>
             <div>
                 <div className="features">
